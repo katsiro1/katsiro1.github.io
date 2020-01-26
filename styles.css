@@ -1,49 +1,42 @@
-h1 {
-    color:red;
+.jumbotron {
     font-size: 150px;
-    text-align: center;
+    background-attachment: fixed;
+    background-image: url(Chess\ Jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     text-shadow: 1px 1px 1px black;
-    background-color: greenyellow;
-    background-image: url(happy.jpeg);
-    }
-    h2{
-        background-color: green;
-        background-attachment: fixed;
-        color: purple;
-        font-size: 45px;
-        text-align: center;
-        text-shadow: 1px 1px 1px black;
-        background-repeat: repeat;
-    }
-    img {
-        width: 200px;
-        border-width: 25px;
-        border-color: green;
-        border-style: inset;
-        margin: 0px 50px 50px 100px;
-        
-    }
-    .door {
-        width: 200px;
-        border-width: 25px;
-        border-color:blue;
-        border-style: outset;
-        margin: 0px 100px 50px 0px;
-    }
     
-    h1, h2 {
-        color: purple;
-        text-shadow: 1px 1px 1px black;
-    }
-    .food {
-        color:purple;
-        background-color: greenyellow;
-    }
-    li {
-        background-color: grey;
-        color:blue;
-        text-align: center;
-    }
-    body {
-        background-color:hotpink;
-    }
+}
+
+h1 {
+    color: lightgray;
+    text-align: center;
+    
+
+}
+
+.display-4 {
+    font-family: 'Bowlby One SC';
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bowlby One SC';
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.nav {
+    background-color: lightgrey;
+    text-align: center;
+}
